@@ -10,7 +10,7 @@
 
 4. Push the above changes to GitHub or GitLab.
 
-![surfs-up.png](Images/surfs-up.png)
+![surfs-up.png](surfsup/Images/surfs-up.png)
 
 Congratulations! You've decided to treat yourself to a long holiday vacation in Honolulu, Hawaii! To help with your trip planning, you need to do some climate analysis on the area. The following outlines what you need to do.
 
@@ -18,7 +18,7 @@ Congratulations! You've decided to treat yourself to a long holiday vacation in 
 
 To begin, use Python and SQLAlchemy to do basic climate analysis and data exploration of your climate database. All of the following analysis should be completed using SQLAlchemy ORM queries, Pandas, and Matplotlib.
 
-* Use the provided [starter notebook](climate_starter.ipynb) and [hawaii.sqlite](Resources/hawaii.sqlite) files to complete your climate analysis and data exploration.
+* Use the provided [starter notebook](surfsup/climate_starter.ipynb) and [hawaii.sqlite](surfsup/Resources/hawaii.sqlite) files to complete your climate analysis and data exploration.
 
 * Use SQLAlchemy `create_engine` to connect to your sqlite database.
 
@@ -42,7 +42,7 @@ To begin, use Python and SQLAlchemy to do basic climate analysis and data explor
 
 * Plot the results using the DataFrame `plot` method.
 
-  ![precipitation](Images/precipitation.png)
+  ![precipitation](surfsup/Images/precipitation.png)
 
 * Use Pandas to print the summary statistics for the precipitation data.
 
@@ -68,7 +68,7 @@ To begin, use Python and SQLAlchemy to do basic climate analysis and data explor
 
   * Plot the results as a histogram with `bins=12`.
 
-    ![station-histogram](Images/station-histogram.png)
+    ![station-histogram](surfsup/Images/station-histogram.png)
 
 * Close out your session.
 
@@ -123,7 +123,7 @@ Now that you have completed your initial analysis, design a Flask API based on t
 
 * The following are optional challenge queries. These are highly recommended to attempt, but not required for the homework.
 
-* Use the provided [temp_analysis_bonus_1_starter.ipynb](temp_analysis_bonus_1_starter.ipynb) and [temp_analysis_bonus_1_starter](temp_analysis_bonus_2_starter.ipynb) starter notebooks for each bonus challenge.
+* Use the provided [temp_analysis_bonus_1_starter.ipynb](surfsup/temp_analysis_bonus_1_starter.ipynb) and [temp_analysis_bonus_1_starter](surfsup/temp_analysis_bonus_2_starter.ipynb) starter notebooks for each bonus challenge.
 
 ### Temperature Analysis I
 
@@ -157,7 +157,7 @@ Now that you have completed your initial analysis, design a Flask API based on t
 
   * Use the peak-to-peak (TMAX-TMIN) value as the y error bar (YERR).
 
-    ![temperature](Images/temperature.png)
+    ![temperature](surfsup/Images/temperature.png)
 
 ### Daily Rainfall Average
 
@@ -181,7 +181,7 @@ Now that you have completed your initial analysis, design a Flask API based on t
 
 * Use Pandas to plot an area plot (`stacked=False`) for the daily normals.
 
-  ![daily-normals](Images/daily-normals.png)
+  ![daily-normals](surfsup/Images/daily-normals.png)
 
 * Close out your session.
 
